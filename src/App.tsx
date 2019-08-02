@@ -8,14 +8,14 @@ const App: React.FC = () => (
   <>
     <Divider horizontal>
       <Header as='h3'>
-        src/containers/Counter
+        src/containers/Counter (with HOC)
       </Header>
     </Divider>
     <Counter/>
 
     <Divider horizontal>
       <Header as='h3'>
-        src/containers/Counter2
+        src/containers/Counter2 (with Hooks)
       </Header>
     </Divider>
     <Counter2 />
